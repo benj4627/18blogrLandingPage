@@ -28,23 +28,24 @@ h1, h2, h3, h4, h5, h6 {
 
 /* footer */
 
-footer{
-    background-color: var(--veryDarkBlackBlue);
-}
-
 .container{
+    background-color: var(--veryDarkBlackBlue);
+    border-top-right-radius: 60px;
     text-align: center;
+    padding: var(--largeSpacing);
 }
 
 footer h2{
     color: white;
     margin-bottom: var(--largeSpacing);
     font-size: 16px;
+    font-weight: 400;
 }
 
 footer p{
     color: var(--grayishBlueFooter);
     font-size: 16px;
+    margin: var(--stdSpacing);
 }
 
 .links{
