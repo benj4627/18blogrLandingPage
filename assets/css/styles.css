@@ -26,6 +26,58 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+header{
+    background-image: linear-gradient(hsl(355, 100%, 74%), hsl(356, 100%, 66%));
+    padding: 40px;
+    border-bottom-left-radius: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headertext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.menu{
+    height: 20px;
+}
+
+h1{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.button-class{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.start{
+    background-color: white;
+    color: var(--lightRedCTAtext);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.learn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
 
 
 /* # Front-end Style Guide
