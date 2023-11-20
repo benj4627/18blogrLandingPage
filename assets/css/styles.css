@@ -26,6 +26,31 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* footer */
+
+footer{
+    background-color: var(--veryDarkBlackBlue);
+}
+
+.container{
+    text-align: center;
+}
+
+footer h2{
+    color: white;
+    margin-bottom: var(--largeSpacing);
+    font-size: 16px;
+}
+
+footer p{
+    color: var(--grayishBlueFooter);
+    font-size: 16px;
+}
+
+.links{
+ margin: var(--largeSpacing);
+}
+
 
 
 /* # Front-end Style Guide
