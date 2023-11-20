@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
 
+:root {
+    --lightRedCTAtext: hsl(356, 100%, 66%);
+    --veryLightRedhover: hsl(355, 100%, 74%);
+    --veryDarkBlue: hsl(208, 49%, 24%);
+    --grayishBlueFooter: hsl(240, 2%, 79%);
+    --veryDarkGrayishBlue: hsl(207, 13%, 34%);
+    --veryDarkBlackBlue: hsl(240, 10%, 16%);
+    --stdSpacing: 1rem;
+    --largeSpacing: 2rem; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 
 
