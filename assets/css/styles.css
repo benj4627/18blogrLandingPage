@@ -17,16 +17,138 @@
     padding: 0;
 }
 
-body {
+body, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-family: 'Overpass', sans-serif;
+    line-height: 1.8rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* header */
+header {
+    background: url(../images/bg-pattern-intro-mobile.svg), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    height: 80vh;
+    border-bottom-left-radius: 100px;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:var(--largeSpacing);
+    margin-bottom: 3rem; 
+    padding-top: 4rem;
+}
+
+.headerText {
+    color: white; 
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.headerText h1 {
+    font-weight: 400;
+    line-height: 2.7rem;
+    margin-bottom: var(--stdSpacing);
+}
+
+.headerText p {
+    margin: 0rem 3rem;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--stdSpacing); 
+    margin-top: var(--stdSpacing);
+    font-size: 12px;
+    margin-top: 3rem;
+}
+
+.startFreeBtn {
+    background-color: white;
+    color: var(--lightRedCTAtext);
+    font-weight: 600;
+    padding: .3rem 1.5rem;
+    border-radius: 20px;
+    border: 1px solid white;
+    flex-basis: 100%;
+    transition: .3s ease-in-out;
+}
+
+.startFreeBtn:hover {
+    background-color:var(--veryLightRedhover);
+    color: white;
+    border: 1px solid var(--veryLightRedhover);
+}
+
+.learnBtn {
+    background-color: var(--lightRedCTAtext);
+    color: white;
+    font-weight: 600;
+    padding: .3rem 1.5rem;
+    border-radius: 20px;
+    border: 1px solid white;
+    flex-basis: 100%;
+    transition: .3s ease-in-out;
+}
+
+.learnBtn:hover {
+    background-color: white;
+    color: var(--lightRedCTAtext);
+    font-weight: 600;
+}
+
+/* main styling */
+main {
+    max-width: 330px;
+    margin: 0 auto;
+    text-wrap: balance;
+}
+
+.designedFuture {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-wrap: balance;
+}
+
+.designedFuture h2 {
+    font-size: 1.5rem;
+    color: var(--veryDarkBlue); 
+    margin: 1rem 3rem;
+}
+
+.future {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: var(--veryDarkBlue);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.designedFuture p {
+    color: var(--veryDarkGrayishBlue);
+    margin-bottom: var(--largeSpacing);
+}
+
+.designedFuture img {
+    margin-top: 1rem;
+    height: 38vh;
+}
+
+/* MOBILE FIRST */
 
 /* # Front-end Style Guide
 
