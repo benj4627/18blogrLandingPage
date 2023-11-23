@@ -113,7 +113,7 @@ header a {
 /* main styling */
 
 .mainText{
-    max-width: 360px;
+    max-width: 370px;
     margin: 0 auto;
     text-wrap: balance;
     text-align: center;
@@ -143,15 +143,16 @@ header a {
 
 .mainText img {
     margin-top: 1rem;
-    height: 37vh;
+    height: 32vh;
 }
 
 .phonesImg {
     position: relative;
     height: 5vh;
 }
+
 .phonesImg img {
-    height: 50vh;
+    height: 40vh;
     position: absolute;
     left: 6%;
     top: 80%;
@@ -189,8 +190,44 @@ header a {
     margin: 0rem 1rem;
 }
 
+/* Footer styling */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 100px;
+    padding: 4rem 0rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
 
-/* MOBILE FIRST */
+footer img {
+    padding: 2rem; 
+}
+
+footer ul {
+    margin-bottom: 1.3rem;
+}
+
+footer a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    transition: .3 ease-in-out;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h2 {
+    color: white;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
 
 /* # Front-end Style Guide
 
