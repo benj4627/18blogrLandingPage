@@ -274,6 +274,7 @@ footer h2 {
 }
 
 @media (min-width: 620px) {
+    /* header styling */
     .desktopNav {
         display: flex;
         justify-content: flex-start;
@@ -305,6 +306,61 @@ footer h2 {
         display: inline-block;
         padding-left: 3rem;
         padding-right: 3rem;
+    }
+
+    .headerText h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .headerText p {
+        font-size: 1.3rem;
+    }
+
+    /* main stlying for desktop */
+    .mainText {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .mainText h2 {
+        font-size: 1.5rem;
+        color: var(--veryDarkBlue);
+        margin-top: 2rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #future {
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        font-size: 2rem;
+    }
+
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        position: relative;
+    }
+
+    .editorText, .contentManagementText {
+        grid-column: 1 / span 1;
+        text-align: left; 
+    }
+
+    .editorDesktop {
+        width: 30vw;
+        
+    }
+
+    .editorDesktop img {
+        grid-column: 2 / span 1;
+        height: 80vh;
+        object-fit: cover;
+        position: absolute;
+        top: -15%;
     }
 }
 
