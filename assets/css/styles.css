@@ -365,9 +365,14 @@ footer h2 {
 
     .stateOfArtContainer {
         min-width: 90vw;
-        height: 65vh;
+        height: 60vh;
         display: grid;
         grid-template-columns: repeat(2, minmax(200px, 1fr));
+        background: url(../images/bg-pattern-circles.svg), linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));;
+        background-size: fill;
+        background-repeat: no-repeat;
+        background-position-x: -50%;
+        background-position-y: 100%;
     }
 
     .stateText {
@@ -375,17 +380,23 @@ footer h2 {
         top: 5%;
         margin: 2rem 0rem;
         text-align: left;
+        background: unset;
     }
 
     .stateText p {
         margin: unset;
     }
 
+    .phonesImg {
+        position: relative;
+    }
+
     .phonesImg img {
         grid-column: 1 / span 1;
-        left: 10%;
-        top: 120%;
+        position: absolute;
+        top: -125%;
         min-height: 80vh;
+        margin-bottom: 10rem;
     }
     
 }
