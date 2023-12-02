@@ -388,17 +388,26 @@ footer h2 {
     }
 
     .phonesImg {
+        display: none;
+    }
+
+    .phonesImg1 {
         position: relative;
     }
 
-    .phonesImg img {
+    .phonesImg1 img {
         grid-column: 1 / span 1;
         position: absolute;
-        top: -125%;
-        min-height: 80vh;
+        top: -19%;
+        min-height: 85vh;
         margin-bottom: 10rem;
+    } 
+}
+
+@media (max-width: 620px) {
+    .phonesImg1 img {
+        display: none;
     }
-    
 }
 
 /* # Front-end Style Guide
