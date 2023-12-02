@@ -362,6 +362,32 @@ footer h2 {
         position: absolute;
         top: -15%;
     }
+
+    .stateOfArtContainer {
+        min-width: 90vw;
+        height: 65vh;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+
+    .stateText {
+        grid-column: 2 / span 1;
+        top: 5%;
+        margin: 2rem 0rem;
+        text-align: left;
+    }
+
+    .stateText p {
+        margin: unset;
+    }
+
+    .phonesImg img {
+        grid-column: 1 / span 1;
+        left: 10%;
+        top: 120%;
+        min-height: 80vh;
+    }
+    
 }
 
 /* # Front-end Style Guide
