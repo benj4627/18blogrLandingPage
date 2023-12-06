@@ -47,7 +47,7 @@ nav {
 }
 
 .burgerMenu img {
-    margin-left: 10rem;
+    margin-left: 14rem;
 }
 
 .headerText {
@@ -351,15 +351,14 @@ footer h2 {
     }
 
     .editorDesktop {
-        width: 30vw;
-        
+        width: 25vw;
     }
 
     .editorDesktop img {
         grid-column: 2 / span 1;
-        height: 70vh;
+        height: 60vh;
         position: absolute;
-        top: -20%;
+        top: 5%;
         left: 10%;
     }
 
@@ -405,7 +404,7 @@ footer h2 {
 
     .freeOpenSimple img {
         grid-column: 1 / span 1;
-        height: 90vh;
+        height: 80vh;
         position: absolute;
         right: -5%;
         top: 5%;
@@ -415,7 +414,28 @@ footer h2 {
         grid-column: 2 / span 1;
         padding: 8rem 0rem;
     }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        text-align: left;
+        padding: unset;
+        padding: 3rem;
+        position: relative;
+        
+    }
+
+    footer div {
+        margin-left: 6rem;
+        padding: 2rem;
+    }
     
+    footer img {
+        position: absolute;
+        left: 5%;
+    }
+   
 }
 
 @media (max-width: 620px) {
